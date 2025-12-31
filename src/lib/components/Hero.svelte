@@ -6,33 +6,33 @@
     <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
       <!-- Left -->
       <div class="md:col-span-3 pt-2">
-        <p class="text-gray-500 text-lg font-light leading-tight">Small living,<br>supersized.</p>
+        <p class="text-gray-500 text-lg font-light leading-tight">Maximize your<br>rental income.</p>
       </div>
 
       <!-- Center -->
       <div class="md:col-span-6 flex justify-center">
-        <h1 class="text-[180px] leading-none font-light tracking-tighter -mt-8">XL 10</h1>
+        <h1 class="text-[120px] md:text-[160px] leading-none font-light tracking-tighter -mt-8">Full Service</h1>
       </div>
 
       <!-- Right -->
       <div class="md:col-span-3 pt-4">
         <p class="text-gray-600 text-[15px] leading-relaxed mb-4">
-          Introducing Backyard XL 10.<br>
-          Two bedrooms, two baths.<br>
-          950 square feet.
+          Professional property management<br>
+          for mid-term and high-end<br>
+          short-term rentals.
         </p>
-        <a href="#" class="text-[13px] font-medium text-gray-900 hover:text-gray-600 transition-colors flex items-center gap-1">
-          Learn more <span class="text-[10px]">></span>
+        <a href="#contact" class="text-[13px] font-medium text-gray-900 hover:text-gray-600 transition-colors flex items-center gap-1">
+          Get started <span class="text-[10px]">></span>
         </a>
       </div>
     </div>
   </div>
 
   <!-- Hero Image -->
-  <div class="w-full h-[600px] bg-gray-200 overflow-hidden relative">
+  <div class="w-full h-[600px] bg-gray-200 overflow-hidden relative" id="hero-image">
     <img 
-      src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop" 
-      alt="Backyard XL 10 House" 
+      src="/generated/image-modern-luxury-furnished-apartment-living-1767220468619-0.webp" 
+      alt="Luxury furnished rental property" 
       class="w-full h-full object-cover"
     />
   </div>
