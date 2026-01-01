@@ -21,7 +21,7 @@
     <div class="hidden md:flex items-center gap-6 text-[13px] font-medium text-gray-300">
       <a href="#services" class="hover:text-white transition-colors">Services</a>
       <a href="#process" class="hover:text-white transition-colors">How it works</a>
-      <a href="#properties" class="hover:text-white transition-colors">Properties</a>
+      <a href="https://book.fredpm.com" class="hover:text-white transition-colors">Our properties</a>
       <a href="#about" class="hover:text-white transition-colors">About</a>
     </div>
   </div>
