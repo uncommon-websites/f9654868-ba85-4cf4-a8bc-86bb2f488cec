@@ -24,7 +24,7 @@
     <Hero />
     <Intro />
     <VideoExplainer 
-      videoId="dQw4w9WgXcQ"
+      videoId="toMhkoSW86Q"
       title="Understanding mid-term rentals"
       description="Learn how FredPM maximizes your rental income through strategic mid-term property management."
     />
