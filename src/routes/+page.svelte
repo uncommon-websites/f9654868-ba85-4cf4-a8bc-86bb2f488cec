@@ -3,6 +3,7 @@
   import Navbar from "$lib/components/Navbar.svelte";
   import Hero from "$lib/components/Hero.svelte";
   import Intro from "$lib/components/Intro.svelte";
+  import VideoExplainer from "$lib/components/VideoExplainer.svelte";
   import Carousel from "$lib/components/Carousel.svelte";
   import ValueProp from "$lib/components/ValueProp.svelte";
   import ShowroomGrid from "$lib/components/ShowroomGrid.svelte";
@@ -22,6 +23,11 @@
   <main>
     <Hero />
     <Intro />
+    <VideoExplainer 
+      videoId="dQw4w9WgXcQ"
+      title="Understanding mid-term rentals"
+      description="Learn how FredPM maximizes your rental income through strategic mid-term property management."
+    />
     <Carousel />
     <ValueProp />
     <ShowroomGrid />
