@@ -2,14 +2,14 @@
   let selectedService = 'mid-term';
 </script>
 
-<section class="bg-[#f9f9f7] py-24 px-6">
+<section class="bg-surface-light py-24 px-6">
   <div class="max-w-[1200px] mx-auto text-center">
-    <h2 class="text-[40px] font-light text-gray-900 mb-16">
+    <h2 class="text-3xl md:text-4xl font-light text-gray-900 mb-16">
       Two service tiers. <span class="text-gray-400">Maximum flexibility.</span>
     </h2>
 
     <div class="mb-8">
-      <h3 class="text-2xl font-normal mb-2">Mid-Term Rentals</h3>
+      <h3 class="text-xl md:text-2xl font-medium mb-2">Mid-Term Rentals</h3>
       <p class="text-gray-500 text-sm">Stable, consistent income with 30+ day stays.</p>
     </div>
 
@@ -56,19 +56,19 @@
       <span>100% managed</span>
     </div>
 
-    <p class="text-xs text-gray-500 mb-8">
-      Maximize your rental income with <span class="font-bold text-gray-900">professional management</span>.<br>
+    <p class="text-sm text-gray-500 mb-8">
+      Maximize your rental income with <span class="font-medium text-gray-900">professional management</span>.<br>
       Schedule a consultation to get your property's income projection.
     </p>
 
-    <div class="flex justify-center gap-4">
-      <button class="px-6 py-3 bg-gray-100 hover:bg-gray-200 rounded-lg text-sm font-medium transition-colors text-left">
-        <span class="block text-[10px] text-gray-500">Learn more about</span>
+    <div class="flex flex-col sm:flex-row justify-center gap-4">
+      <button class="px-6 py-3 bg-gray-100 hover:bg-gray-200 rounded-lg text-sm font-medium transition-colors duration-300 text-left">
+        <span class="block text-xs text-gray-500">Learn more about</span>
         <span class="text-primary-600">Our services</span>
       </button>
-      <button class="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg text-sm font-medium transition-colors flex items-center gap-2">
+      <button class="px-6 py-3 bg-primary-600 hover:bg-primary-700 text-white rounded-lg text-sm font-medium transition-colors duration-300 flex items-center justify-center gap-2">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-        Schedule consultation ->
+        Schedule consultation →
       </button>
     </div>
   </div>

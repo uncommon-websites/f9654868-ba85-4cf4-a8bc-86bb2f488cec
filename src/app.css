@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-	/* Colors */
+	/* Gray Scale */
 	--color-gray-50: oklch(0.985 0 0);
 	--color-gray-100: oklch(0.97 0 0);
 	--color-gray-200: oklch(0.922 0 0);
@@ -14,6 +14,7 @@
 	--color-gray-900: oklch(0.205 0 0);
 	--color-gray-950: oklch(0.145 0 0);
 
+	/* Primary (Teal) */
 	--color-primary-50: oklch(0.979 0.021 166.113);
 	--color-primary-100: oklch(0.95 0.052 163.051);
 	--color-primary-200: oklch(0.905 0.093 164.15);
@@ -26,6 +27,7 @@
 	--color-primary-900: oklch(0.378 0.077 168.94);
 	--color-primary-950: oklch(0.262 0.051 172.552);
 
+	/* Secondary (Tan/Gold) */
 	--color-secondary-50: oklch(97% 0.015 30);
 	--color-secondary-100: oklch(92% 0.02 30);
 	--color-secondary-200: oklch(86% 0.03 30);
@@ -38,6 +40,38 @@
 	--color-secondary-900: oklch(30% 0.1 30);
 	--color-secondary-950: oklch(20% 0.11 30);
 
+	/* Surface Colors (for backgrounds) */
+	--color-surface: #ffffff;
+	--color-surface-light: #f9f9f7;
+	--color-surface-muted: #f0efeb;
+	--color-surface-warm: #fdfbf7;
+
+	/* Typography */
 	--font-body: var(--font-family), var(--font-fallback);
 	--font-display: var(--font-body);
+
+	/* Standardized Font Sizes */
+	--text-display: 5rem;      /* 80px - Hero main */
+	--text-h1: 3.5rem;         /* 56px - Page titles */
+	--text-h2: 2.5rem;         /* 40px - Section headings */
+	--text-h3: 1.5rem;         /* 24px - Card headings */
+	--text-h4: 1.25rem;        /* 20px - Subheadings */
+	--text-body-lg: 1.125rem;  /* 18px - Large body */
+	--text-body: 1rem;         /* 16px - Body */
+	--text-body-sm: 0.875rem;  /* 14px - Small body */
+	--text-caption: 0.75rem;   /* 12px - Captions */
+	--text-micro: 0.625rem;    /* 10px - Micro text */
+
+	/* Standardized Spacing */
+	--space-section: 6rem;     /* 96px - Between sections */
+	--space-lg: 4rem;          /* 64px - Large spacing */
+	--space-md: 2rem;          /* 32px - Medium spacing */
+	--space-sm: 1rem;          /* 16px - Small spacing */
+	--space-xs: 0.5rem;        /* 8px - Extra small */
+
+	/* Container Widths */
+	--container-xl: 1400px;
+	--container-lg: 1200px;
+	--container-md: 1000px;
+	--container-sm: 800px;
 }

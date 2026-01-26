@@ -12,13 +12,13 @@
   }: Props = $props();
 </script>
 
-<section class="bg-white py-24 px-6">
+<section class="bg-surface py-24 px-6">
   <div class="max-w-[1200px] mx-auto">
     <div class="text-center mb-12">
-      <h2 class="text-[48px] leading-tight font-light text-gray-900 mb-4">
+      <h2 class="text-3xl md:text-4xl leading-tight font-light text-gray-900 mb-4">
         {title}
       </h2>
-      <p class="text-gray-500 text-lg font-light max-w-[700px] mx-auto">
+      <p class="text-gray-500 text-lg max-w-[700px] mx-auto">
         {description}
       </p>
     </div>

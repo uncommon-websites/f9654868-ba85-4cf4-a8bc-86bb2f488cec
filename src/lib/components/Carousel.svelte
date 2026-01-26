@@ -15,7 +15,7 @@
   ];
 </script>
 
-<section class="bg-white pb-24 overflow-hidden" id="properties">
+<section class="bg-surface pb-24 overflow-hidden" id="properties">
   <div class="flex gap-4 overflow-x-auto px-6 pb-8 snap-x">
     {#each properties as property}
       <a 

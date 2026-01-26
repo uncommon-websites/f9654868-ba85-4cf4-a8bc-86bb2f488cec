@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<section class="bg-[#f9f9f7] pb-24 px-6">
+<section class="bg-surface-light pb-24 px-6">
   <div class="max-w-[1200px] mx-auto">
     <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
       <!-- Card 1 -->
@@ -11,8 +11,8 @@
           alt="Property portfolio" 
           class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
-        <div class="absolute inset-0 bg-black/10 p-8 flex flex-col justify-between">
-          <h3 class="text-white text-2xl font-light max-w-[200px]">See our managed properties. <br>View portfolio -></h3>
+        <div class="absolute inset-0 bg-black/10 p-6 md:p-8 flex flex-col justify-between">
+          <h3 class="text-white text-xl md:text-2xl font-light max-w-[200px]">See our managed properties. <br>View portfolio →</h3>
         </div>
       </div>
 
@@ -23,8 +23,8 @@
           alt="Income projections" 
           class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
-        <div class="absolute inset-0 bg-black/10 p-8 flex flex-col justify-between">
-          <h3 class="text-white text-2xl font-light max-w-[300px]">Get guaranteed income projections for your property. <br>Schedule consultation -></h3>
+        <div class="absolute inset-0 bg-black/10 p-6 md:p-8 flex flex-col justify-between">
+          <h3 class="text-white text-xl md:text-2xl font-light max-w-[300px]">Get guaranteed income projections for your property. <br>Schedule consultation →</h3>
         </div>
       </div>
     </div>

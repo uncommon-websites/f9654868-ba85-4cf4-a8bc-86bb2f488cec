@@ -2,10 +2,10 @@
   import { page } from '$app/stores';
 </script>
 
-<nav class="bg-black text-white py-4 px-6 flex items-center justify-between sticky top-0 z-50 border-b border-gray-900">
+<nav class="bg-gray-900 text-white py-4 px-6 flex items-center justify-between sticky top-0 z-50 border-b border-gray-800">
   <div class="flex items-center gap-8">
-    <a href="/" class="flex items-center gap-2">
-      <div class="w-8 h-8 text-white">
+    <a href="/" class="flex items-center gap-3">
+      <div class="w-10 h-10 text-primary-400">
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             fill-rule="evenodd"
@@ -15,19 +15,19 @@
           />
         </svg>
       </div>
-      <span class="text-2xl font-medium tracking-tight">FredPM</span>
+      <span class="text-xl md:text-2xl font-medium tracking-tight">FredPM</span>
     </a>
-    
-    <div class="hidden md:flex items-center gap-6 text-[13px] font-medium text-gray-300">
-      <a href="#services" class="hover:text-white transition-colors">Services</a>
-      <a href="#process" class="hover:text-white transition-colors">How it works</a>
-      <a href="https://book.fredpm.com" class="hover:text-white transition-colors">Our properties</a>
-      <a href="#about" class="hover:text-white transition-colors">About</a>
+
+    <div class="hidden md:flex items-center gap-6 text-sm font-medium text-gray-300">
+      <a href="#services" class="hover:text-white transition-colors duration-300">Services</a>
+      <a href="#process" class="hover:text-white transition-colors duration-300">How it works</a>
+      <a href="https://book.fredpm.com" class="hover:text-white transition-colors duration-300">Our properties</a>
+      <a href="#about" class="hover:text-white transition-colors duration-300">About</a>
     </div>
   </div>
 
   <div class="flex items-center gap-4">
-    <a href="#contact" class="bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-full text-[13px] font-medium transition-colors">
+    <a href="#contact" class="bg-primary-600 hover:bg-primary-700 text-white px-5 py-2.5 rounded-full text-sm font-medium transition-colors duration-300">
       Get Started
     </a>
   </div>

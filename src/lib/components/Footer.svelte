@@ -1,10 +1,10 @@
 <script lang="ts">
 </script>
 
-<section class="bg-[#f9f9f7] pt-24 pb-12 px-6 border-b border-gray-200">
+<section class="bg-surface-light pt-24 pb-12 px-6 border-b border-gray-200">
   <div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-24" id="contact">
     <div>
-      <h2 class="text-[40px] font-light text-gray-900 leading-tight mb-6">
+      <h2 class="text-3xl md:text-4xl font-light text-gray-900 leading-tight mb-6">
         Ready to maximize<br>
         your rental income?<br>
         Let's talk.
@@ -57,7 +57,7 @@
   </div>
 </section>
 
-<footer class="bg-[#f9f9f7] pt-12 pb-12 px-6">
+<footer class="bg-surface-light pt-12 pb-12 px-6">
   <div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
     <div>
       <h3 class="font-medium text-gray-900 mb-4">FredPM</h3>
@@ -108,7 +108,7 @@
     </div>
   </div>
 
-  <div class="max-w-[1200px] mx-auto mt-24 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center text-[10px] text-gray-400">
+  <div class="max-w-[1200px] mx-auto mt-24 pt-8 border-t border-gray-200 flex flex-col md:flex-row justify-between items-center text-xs text-gray-400">
     <p>© 2024 FredPM. All rights reserved.</p>
     <div class="flex gap-4 mt-4 md:mt-0">
       <a href="#" class="hover:text-gray-600">Privacy policy</a>
